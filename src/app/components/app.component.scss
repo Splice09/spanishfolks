@@ -1,0 +1,133 @@
+@import "../../assets/styles/colors";
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    color: $header-color;
+    margin: 5px;
+}
+
+.reschedule {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: red;
+    margin: 5px;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.subtitleText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: $font-color;
+    padding: 20px;
+    border-bottom: 2px solid $tiffany-blue;
+}
+
+.schedule {
+    display: flex;
+    justify-content: center;
+}
+.scheduleText {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: $font-color;
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 2px solid $tiffany-blue;
+}
+
+.mealPlanHeader {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: $font-color;
+}
+
+.mealPlan {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.meal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.mealHeader {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: $font-color;
+    padding: 10px;
+    border-bottom: 2px solid $tiffany-blue;
+}
+
+.food {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $font-color;
+    padding: 10px;
+    margin: 10px;
+}
+
+.whatToBring {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border-top: 2px solid $tiffany-blue;
+}
+
+.whatToBringHeader {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: $font-color;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.items {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $font-color;
+}
+
+.note {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: $font-color;
+    padding: 10px;
+    margin: 10px;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
